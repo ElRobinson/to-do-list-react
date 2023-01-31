@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { Header } from './components/Header';
+import { Tasks } from './components/Tasks';
 import './styles/global.css';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <>
-    <Header />
+      <Header />
+      <Tasks />
     </>
   )
 }
